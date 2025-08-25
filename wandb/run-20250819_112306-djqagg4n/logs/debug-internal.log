@@ -1,0 +1,8 @@
+{"time":"2025-08-19T11:23:06.502202+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/fady/Desktop/test/2/GreenLight-Gym2/wandb/run-20250819_112306-djqagg4n/logs/debug-core.log"}
+{"time":"2025-08-19T11:23:06.898218+03:00","level":"INFO","msg":"created new stream","id":"djqagg4n"}
+{"time":"2025-08-19T11:23:06.898325+03:00","level":"INFO","msg":"stream: started","id":"djqagg4n"}
+{"time":"2025-08-19T11:23:06.898383+03:00","level":"INFO","msg":"handler: started","stream_id":"djqagg4n"}
+{"time":"2025-08-19T11:23:06.899042+03:00","level":"INFO","msg":"sender: started","stream_id":"djqagg4n"}
+{"time":"2025-08-19T11:23:06.899106+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"djqagg4n"}
+{"time":"2025-08-19T11:23:07.222295+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-19T11:23:28.50877+03:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}

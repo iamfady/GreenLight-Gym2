@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/fady/Desktop/test/2/GreenLight-Gym2/gl_gym/RL/experiment_manager.py", line 410, in <module>
+    main()
+  File "/Users/fady/Desktop/test/2/GreenLight-Gym2/gl_gym/RL/experiment_manager.py", line 383, in main
+    experiment_manager = ExperimentManager(
+                         ^^^^^^^^^^^^^^^^^^
+  File "/Users/fady/Desktop/test/2/GreenLight-Gym2/gl_gym/RL/experiment_manager.py", line 141, in __init__
+    self.model_params = self.build_model_parameters()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fady/Desktop/test/2/GreenLight-Gym2/gl_gym/RL/experiment_manager.py", line 233, in build_model_parameters
+    action_noise_key, noise_params = next(iter(self.hyperparameters["action_noise"].items()))
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'

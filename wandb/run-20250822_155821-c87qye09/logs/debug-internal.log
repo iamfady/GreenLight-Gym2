@@ -1,0 +1,17 @@
+{"time":"2025-08-22T15:58:21.537857+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/fady/Desktop/test/2/GreenLight-Gym2/wandb/run-20250822_155821-c87qye09/logs/debug-core.log"}
+{"time":"2025-08-22T15:58:22.853873+03:00","level":"INFO","msg":"created new stream","id":"c87qye09"}
+{"time":"2025-08-22T15:58:22.853945+03:00","level":"INFO","msg":"stream: started","id":"c87qye09"}
+{"time":"2025-08-22T15:58:22.854067+03:00","level":"INFO","msg":"sender: started","stream_id":"c87qye09"}
+{"time":"2025-08-22T15:58:22.854108+03:00","level":"INFO","msg":"handler: started","stream_id":"c87qye09"}
+{"time":"2025-08-22T15:58:22.854203+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"c87qye09"}
+{"time":"2025-08-22T15:58:23.178376+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-22T15:58:42.414435+03:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-08-22T16:26:35.902915+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-22T16:26:35.903826+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-22T16:26:36.913284+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-c87qye09-plot_co2_air_id_table","runtime_seconds":1.238430834},{"desc":"uploading media/table/plot_co2_air_id_table_99_41e9e709b04a55866f97.table.json","runtime_seconds":0.76721675,"progress":"219.8KB/219.8KB"},{"desc":"uploading output.log","runtime_seconds":0.349358875,"progress":"49.3KB/49.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.349323958,"progress":"7.7KB/7.7KB"},{"desc":"uploading config.yaml","runtime_seconds":0.079031084,"progress":"25.3KB/25.3KB"}],"total_operations":5}}
+{"time":"2025-08-22T16:26:39.932285+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-22T16:26:40.276525+03:00","level":"INFO","msg":"stream: closing","id":"c87qye09"}
+{"time":"2025-08-22T16:26:40.276586+03:00","level":"INFO","msg":"handler: closed","stream_id":"c87qye09"}
+{"time":"2025-08-22T16:26:40.278041+03:00","level":"INFO","msg":"sender: closed","stream_id":"c87qye09"}
+{"time":"2025-08-22T16:26:40.276804+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"c87qye09"}
+{"time":"2025-08-22T16:26:40.278273+03:00","level":"INFO","msg":"stream: closed","id":"c87qye09"}

@@ -1,0 +1,17 @@
+{"time":"2025-08-22T17:32:49.334363+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/fady/Desktop/test/2/GreenLight-Gym2/wandb/run-20250822_173249-3ry5cg6q/logs/debug-core.log"}
+{"time":"2025-08-22T17:32:49.926465+03:00","level":"INFO","msg":"created new stream","id":"3ry5cg6q"}
+{"time":"2025-08-22T17:32:49.926526+03:00","level":"INFO","msg":"stream: started","id":"3ry5cg6q"}
+{"time":"2025-08-22T17:32:49.926573+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"3ry5cg6q"}
+{"time":"2025-08-22T17:32:49.926624+03:00","level":"INFO","msg":"handler: started","stream_id":"3ry5cg6q"}
+{"time":"2025-08-22T17:32:49.926639+03:00","level":"INFO","msg":"sender: started","stream_id":"3ry5cg6q"}
+{"time":"2025-08-22T17:32:50.419783+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-22T17:33:14.900093+03:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-08-22T18:53:22.703966+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-22T18:53:22.704917+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-22T18:53:23.713982+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.653968542,"progress":"160.0KB/170.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.377769708},{"desc":"uploading train_data/AgriControl/recurrentppo/deterministic/logs/classic-wood-84/RecurrentPPO_0/events.out.tfevents.1755873184.FaDys-MacBook-Air.local.30530.0","runtime_seconds":0.377708042,"progress":"16.0KB/137.5KB"}],"total_operations":3}}
+{"time":"2025-08-22T18:53:27.924931+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-22T18:53:28.288738+03:00","level":"INFO","msg":"stream: closing","id":"3ry5cg6q"}
+{"time":"2025-08-22T18:53:28.28918+03:00","level":"INFO","msg":"handler: closed","stream_id":"3ry5cg6q"}
+{"time":"2025-08-22T18:53:28.289571+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"3ry5cg6q"}
+{"time":"2025-08-22T18:53:28.289768+03:00","level":"INFO","msg":"sender: closed","stream_id":"3ry5cg6q"}
+{"time":"2025-08-22T18:53:28.289805+03:00","level":"INFO","msg":"stream: closed","id":"3ry5cg6q"}

@@ -1,0 +1,17 @@
+{"time":"2025-08-19T21:36:23.960281+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/fady/Desktop/test/2/GreenLight-Gym2/wandb/run-20250819_213623-ui3d3lfj/logs/debug-core.log"}
+{"time":"2025-08-19T21:36:26.568855+03:00","level":"INFO","msg":"created new stream","id":"ui3d3lfj"}
+{"time":"2025-08-19T21:36:26.569188+03:00","level":"INFO","msg":"stream: started","id":"ui3d3lfj"}
+{"time":"2025-08-19T21:36:26.569597+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"ui3d3lfj"}
+{"time":"2025-08-19T21:36:26.569798+03:00","level":"INFO","msg":"handler: started","stream_id":"ui3d3lfj"}
+{"time":"2025-08-19T21:36:26.570153+03:00","level":"INFO","msg":"sender: started","stream_id":"ui3d3lfj"}
+{"time":"2025-08-19T21:36:27.223841+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-19T21:36:50.429492+03:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-08-19T21:45:39.242178+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-19T21:45:39.242932+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-19T21:45:40.261732+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.437644375,"progress":"35.1KB/35.1KB"},{"desc":"uploading config.yaml","runtime_seconds":0.133458334,"progress":"22.1KB/22.1KB"},{"desc":"uploading train_data/AgriControl/ppo/deterministic/logs/devout-river-76/PPO_0/events.out.tfevents.1755628600.FaDys-MacBook-Air.local.25451.0","runtime_seconds":0.133429791,"progress":"27.6KB/27.6KB"}],"total_operations":3}}
+{"time":"2025-08-19T21:45:40.587613+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-19T21:45:40.991352+03:00","level":"INFO","msg":"stream: closing","id":"ui3d3lfj"}
+{"time":"2025-08-19T21:45:40.991633+03:00","level":"INFO","msg":"handler: closed","stream_id":"ui3d3lfj"}
+{"time":"2025-08-19T21:45:40.991756+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ui3d3lfj"}
+{"time":"2025-08-19T21:45:40.991799+03:00","level":"INFO","msg":"sender: closed","stream_id":"ui3d3lfj"}
+{"time":"2025-08-19T21:45:40.991846+03:00","level":"INFO","msg":"stream: closed","id":"ui3d3lfj"}

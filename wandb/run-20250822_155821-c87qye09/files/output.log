@@ -1,0 +1,1436 @@
+Using cpu device
+Logging to train_data/AgriControl/sac/deterministic/logs/crisp-waterfall-81/SAC_0
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 1134.5732 |
+| time/              |           |
+|    episodes        | 4         |
+|    fps             | 2679      |
+|    time_elapsed    | 17        |
+|    total_timesteps | 46088     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 1134.5732 |
+| time/              |           |
+|    episodes        | 8         |
+|    fps             | 2678      |
+|    time_elapsed    | 17        |
+|    total_timesteps | 46088     |
+----------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 1162.072 |
+| time/              |          |
+|    episodes        | 12       |
+|    fps             | 1843     |
+|    time_elapsed    | 49       |
+|    total_timesteps | 92176    |
+| train/             |          |
+|    actor_loss      | -29.6    |
+|    critic_loss     | 0.0488   |
+|    ent_coef        | 0.55     |
+|    ent_coef_loss   | -6.04    |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 860      |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 1162.072 |
+| time/              |          |
+|    episodes        | 16       |
+|    fps             | 1843     |
+|    time_elapsed    | 50       |
+|    total_timesteps | 92176    |
+---------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 1360.7122 |
+| time/              |           |
+|    episodes        | 20        |
+|    fps             | 1597      |
+|    time_elapsed    | 86        |
+|    total_timesteps | 138264    |
+| train/             |           |
+|    actor_loss      | -33.1     |
+|    critic_loss     | 0.0432    |
+|    ent_coef        | 0.246     |
+|    ent_coef_loss   | -14.1     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 2010      |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 1360.7122 |
+| time/              |           |
+|    episodes        | 24        |
+|    fps             | 1596      |
+|    time_elapsed    | 86        |
+|    total_timesteps | 138264    |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 1575.5369 |
+| time/              |           |
+|    episodes        | 28        |
+|    fps             | 1508      |
+|    time_elapsed    | 122       |
+|    total_timesteps | 184352    |
+| train/             |           |
+|    actor_loss      | -26.3     |
+|    critic_loss     | 0.0528    |
+|    ent_coef        | 0.11      |
+|    ent_coef_loss   | -22       |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 3160      |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 1575.5369 |
+| time/              |           |
+|    episodes        | 32        |
+|    fps             | 1508      |
+|    time_elapsed    | 122       |
+|    total_timesteps | 184352    |
+----------------------------------
+Eval num_timesteps=200000, episode_reward=2741.73 +/- 0.00
+---------------------------------
+| eval/              |          |
+|    EPI             | -11.9    |
+|    co2_cost        | 0.00188  |
+|    co2_violation   | 0        |
+|    elec_cost       | 0        |
+|    fixed_costs     | 4.13     |
+|    heat_cost       | 12.9     |
+|    mean_reward     | 2.74e+03 |
+|    revenue         | 1        |
+|    rh_violation    | 3.46e+03 |
+|    temp_violation  | 2.38e+03 |
+|    variable_costs  | 12.9     |
+| time/              |          |
+|    total_timesteps | 200000   |
+| train/             |          |
+|    actor_loss      | -23.6    |
+|    critic_loss     | 0.0118   |
+|    ent_coef        | 0.0842   |
+|    ent_coef_loss   | -24.4    |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 3550     |
+---------------------------------
+New best mean reward!
+-----------------------
+Saving VecNormalize to train_data/AgriControl/sac/deterministic/envs/crisp-waterfall-81/best_vecnormalize.pkl
+-----------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 1794.4133 |
+| time/              |           |
+|    episodes        | 36        |
+|    fps             | 1377      |
+|    time_elapsed    | 167       |
+|    total_timesteps | 230440    |
+| train/             |           |
+|    actor_loss      | -18.6     |
+|    critic_loss     | 0.00632   |
+|    ent_coef        | 0.0495    |
+|    ent_coef_loss   | -29       |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 4320      |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 1794.4133 |
+| time/              |           |
+|    episodes        | 40        |
+|    fps             | 1377      |
+|    time_elapsed    | 167       |
+|    total_timesteps | 230440    |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 2007.3522 |
+| time/              |           |
+|    episodes        | 44        |
+|    fps             | 1365      |
+|    time_elapsed    | 202       |
+|    total_timesteps | 276528    |
+| train/             |           |
+|    actor_loss      | -12.8     |
+|    critic_loss     | 0.00619   |
+|    ent_coef        | 0.0227    |
+|    ent_coef_loss   | -34.2     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 5470      |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 2007.3522 |
+| time/              |           |
+|    episodes        | 48        |
+|    fps             | 1365      |
+|    time_elapsed    | 202       |
+|    total_timesteps | 276528    |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 2185.4292 |
+| time/              |           |
+|    episodes        | 52        |
+|    fps             | 1357      |
+|    time_elapsed    | 237       |
+|    total_timesteps | 322616    |
+| train/             |           |
+|    actor_loss      | -8.88     |
+|    critic_loss     | 0.00339   |
+|    ent_coef        | 0.0107    |
+|    ent_coef_loss   | -36.8     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 6620      |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 2185.4292 |
+| time/              |           |
+|    episodes        | 56        |
+|    fps             | 1357      |
+|    time_elapsed    | 237       |
+|    total_timesteps | 322616    |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 2332.3394 |
+| time/              |           |
+|    episodes        | 60        |
+|    fps             | 1349      |
+|    time_elapsed    | 273       |
+|    total_timesteps | 368704    |
+| train/             |           |
+|    actor_loss      | -6.44     |
+|    critic_loss     | 0.00247   |
+|    ent_coef        | 0.00521   |
+|    ent_coef_loss   | -36.7     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 7770      |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 2332.3394 |
+| time/              |           |
+|    episodes        | 64        |
+|    fps             | 1349      |
+|    time_elapsed    | 273       |
+|    total_timesteps | 368704    |
+----------------------------------
+Eval num_timesteps=400000, episode_reward=3436.23 +/- 0.00
+---------------------------------
+| eval/              |          |
+|    EPI             | -5.15    |
+|    co2_cost        | 0.263    |
+|    co2_violation   | 0        |
+|    elec_cost       | 0        |
+|    fixed_costs     | 4.13     |
+|    heat_cost       | 5.55     |
+|    mean_reward     | 3.44e+03 |
+|    revenue         | 0.659    |
+|    rh_violation    | 407      |
+|    temp_violation  | 92.8     |
+|    variable_costs  | 5.81     |
+| time/              |          |
+|    total_timesteps | 400000   |
+| train/             |          |
+|    actor_loss      | -5.37    |
+|    critic_loss     | 0.00238  |
+|    ent_coef        | 0.00327  |
+|    ent_coef_loss   | -34.1    |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 8550     |
+---------------------------------
+New best mean reward!
+-----------------------
+Saving VecNormalize to train_data/AgriControl/sac/deterministic/envs/crisp-waterfall-81/best_vecnormalize.pkl
+-----------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 2451.9285 |
+| time/              |           |
+|    episodes        | 68        |
+|    fps             | 1310      |
+|    time_elapsed    | 316       |
+|    total_timesteps | 414792    |
+| train/             |           |
+|    actor_loss      | -4.97     |
+|    critic_loss     | 0.00181   |
+|    ent_coef        | 0.00264   |
+|    ent_coef_loss   | -32.9     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 8920      |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 2451.9285 |
+| time/              |           |
+|    episodes        | 72        |
+|    fps             | 1310      |
+|    time_elapsed    | 316       |
+|    total_timesteps | 414792    |
+----------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 2547.727 |
+| time/              |          |
+|    episodes        | 76       |
+|    fps             | 1306     |
+|    time_elapsed    | 352      |
+|    total_timesteps | 460880   |
+| train/             |          |
+|    actor_loss      | -4.1     |
+|    critic_loss     | 0.00149  |
+|    ent_coef        | 0.00139  |
+|    ent_coef_loss   | -26.7    |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 10080    |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 2547.727 |
+| time/              |          |
+|    episodes        | 80       |
+|    fps             | 1306     |
+|    time_elapsed    | 352      |
+|    total_timesteps | 460880   |
+---------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 2630.1626 |
+| time/              |           |
+|    episodes        | 84        |
+|    fps             | 1296      |
+|    time_elapsed    | 391       |
+|    total_timesteps | 506968    |
+| train/             |           |
+|    actor_loss      | -3.65     |
+|    critic_loss     | 0.00151   |
+|    ent_coef        | 0.000829  |
+|    ent_coef_loss   | -16.7     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 11230     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 2630.1626 |
+| time/              |           |
+|    episodes        | 88        |
+|    fps             | 1296      |
+|    time_elapsed    | 391       |
+|    total_timesteps | 506968    |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 2699.5125 |
+| time/              |           |
+|    episodes        | 92        |
+|    fps             | 1287      |
+|    time_elapsed    | 429       |
+|    total_timesteps | 553056    |
+| train/             |           |
+|    actor_loss      | -3.42     |
+|    critic_loss     | 0.00117   |
+|    ent_coef        | 0.000566  |
+|    ent_coef_loss   | -9.3      |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 12380     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 2699.5125 |
+| time/              |           |
+|    episodes        | 96        |
+|    fps             | 1287      |
+|    time_elapsed    | 429       |
+|    total_timesteps | 553056    |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 2820.4563 |
+| time/              |           |
+|    episodes        | 100       |
+|    fps             | 1282      |
+|    time_elapsed    | 467       |
+|    total_timesteps | 599144    |
+| train/             |           |
+|    actor_loss      | -3.32     |
+|    critic_loss     | 0.000847  |
+|    ent_coef        | 0.000446  |
+|    ent_coef_loss   | -3.12     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 13530     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 2820.4563 |
+| time/              |           |
+|    episodes        | 104       |
+|    fps             | 1282      |
+|    time_elapsed    | 467       |
+|    total_timesteps | 599144    |
+----------------------------------
+Eval num_timesteps=600000, episode_reward=3491.67 +/- 0.00
+---------------------------------
+| eval/              |          |
+|    EPI             | -4.21    |
+|    co2_cost        | 0.121    |
+|    co2_violation   | 0        |
+|    elec_cost       | 0.155    |
+|    fixed_costs     | 4.13     |
+|    heat_cost       | 5.24     |
+|    mean_reward     | 3.49e+03 |
+|    revenue         | 1.31     |
+|    rh_violation    | 217      |
+|    temp_violation  | 156      |
+|    variable_costs  | 5.52     |
+| time/              |          |
+|    total_timesteps | 600000   |
+| train/             |          |
+|    actor_loss      | -3.32    |
+|    critic_loss     | 0.000973 |
+|    ent_coef        | 0.000445 |
+|    ent_coef_loss   | 0.371    |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 13550    |
+---------------------------------
+New best mean reward!
+-----------------------
+Saving VecNormalize to train_data/AgriControl/sac/deterministic/envs/crisp-waterfall-81/best_vecnormalize.pkl
+-----------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3006.2576 |
+| time/              |           |
+|    episodes        | 108       |
+|    fps             | 1253      |
+|    time_elapsed    | 514       |
+|    total_timesteps | 645232    |
+| train/             |           |
+|    actor_loss      | -3.29     |
+|    critic_loss     | 0.000641  |
+|    ent_coef        | 0.000379  |
+|    ent_coef_loss   | -1.25     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 14690     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3006.2576 |
+| time/              |           |
+|    episodes        | 112       |
+|    fps             | 1253      |
+|    time_elapsed    | 514       |
+|    total_timesteps | 645232    |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3162.7798 |
+| time/              |           |
+|    episodes        | 116       |
+|    fps             | 1252      |
+|    time_elapsed    | 552       |
+|    total_timesteps | 691320    |
+| train/             |           |
+|    actor_loss      | -3.34     |
+|    critic_loss     | 0.000552  |
+|    ent_coef        | 0.000316  |
+|    ent_coef_loss   | -2.97     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 15840     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3162.7798 |
+| time/              |           |
+|    episodes        | 120       |
+|    fps             | 1252      |
+|    time_elapsed    | 552       |
+|    total_timesteps | 691320    |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3287.7703 |
+| time/              |           |
+|    episodes        | 124       |
+|    fps             | 1250      |
+|    time_elapsed    | 589       |
+|    total_timesteps | 737408    |
+| train/             |           |
+|    actor_loss      | -3.37     |
+|    critic_loss     | 0.000468  |
+|    ent_coef        | 0.000266  |
+|    ent_coef_loss   | 1.09      |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 16990     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3287.7703 |
+| time/              |           |
+|    episodes        | 128       |
+|    fps             | 1250      |
+|    time_elapsed    | 589       |
+|    total_timesteps | 737408    |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3370.4082 |
+| time/              |           |
+|    episodes        | 132       |
+|    fps             | 1249      |
+|    time_elapsed    | 626       |
+|    total_timesteps | 783496    |
+| train/             |           |
+|    actor_loss      | -3.41     |
+|    critic_loss     | 0.000345  |
+|    ent_coef        | 0.000215  |
+|    ent_coef_loss   | -3.14     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 18140     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3370.4082 |
+| time/              |           |
+|    episodes        | 136       |
+|    fps             | 1249      |
+|    time_elapsed    | 626       |
+|    total_timesteps | 783496    |
+----------------------------------
+Eval num_timesteps=800000, episode_reward=3520.30 +/- 0.00
+---------------------------------
+| eval/              |          |
+|    EPI             | -3.66    |
+|    co2_cost        | 0.0907   |
+|    co2_violation   | 0        |
+|    elec_cost       | 0.0812   |
+|    fixed_costs     | 4.13     |
+|    heat_cost       | 4.69     |
+|    mean_reward     | 3.52e+03 |
+|    revenue         | 1.2      |
+|    rh_violation    | 310      |
+|    temp_violation  | 43.9     |
+|    variable_costs  | 4.86     |
+| time/              |          |
+|    total_timesteps | 800000   |
+| train/             |          |
+|    actor_loss      | -3.42    |
+|    critic_loss     | 0.000339 |
+|    ent_coef        | 0.000202 |
+|    ent_coef_loss   | 0.604    |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 18550    |
+---------------------------------
+New best mean reward!
+-----------------------
+Saving VecNormalize to train_data/AgriControl/sac/deterministic/envs/crisp-waterfall-81/best_vecnormalize.pkl
+-----------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3421.9956 |
+| time/              |           |
+|    episodes        | 140       |
+|    fps             | 1230      |
+|    time_elapsed    | 673       |
+|    total_timesteps | 829584    |
+| train/             |           |
+|    actor_loss      | -3.46     |
+|    critic_loss     | 0.000247  |
+|    ent_coef        | 0.000186  |
+|    ent_coef_loss   | -0.59     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 19290     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3421.9956 |
+| time/              |           |
+|    episodes        | 144       |
+|    fps             | 1230      |
+|    time_elapsed    | 673       |
+|    total_timesteps | 829584    |
+----------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 3450.316 |
+| time/              |          |
+|    episodes        | 148      |
+|    fps             | 1229     |
+|    time_elapsed    | 712      |
+|    total_timesteps | 875672   |
+| train/             |          |
+|    actor_loss      | -3.52    |
+|    critic_loss     | 0.000202 |
+|    ent_coef        | 0.00019  |
+|    ent_coef_loss   | 0.604    |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 20450    |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 3450.316 |
+| time/              |          |
+|    episodes        | 152      |
+|    fps             | 1229     |
+|    time_elapsed    | 712      |
+|    total_timesteps | 875672   |
+---------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3468.3972 |
+| time/              |           |
+|    episodes        | 156       |
+|    fps             | 1229      |
+|    time_elapsed    | 749       |
+|    total_timesteps | 921760    |
+| train/             |           |
+|    actor_loss      | -3.56     |
+|    critic_loss     | 0.000165  |
+|    ent_coef        | 0.000199  |
+|    ent_coef_loss   | 0.153     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 21600     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3468.3972 |
+| time/              |           |
+|    episodes        | 160       |
+|    fps             | 1229      |
+|    time_elapsed    | 749       |
+|    total_timesteps | 921760    |
+----------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 3480.376 |
+| time/              |          |
+|    episodes        | 164      |
+|    fps             | 1228     |
+|    time_elapsed    | 787      |
+|    total_timesteps | 967848   |
+| train/             |          |
+|    actor_loss      | -3.64    |
+|    critic_loss     | 0.000153 |
+|    ent_coef        | 0.000194 |
+|    ent_coef_loss   | -2.76    |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 22750    |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 3480.376 |
+| time/              |          |
+|    episodes        | 168      |
+|    fps             | 1228     |
+|    time_elapsed    | 787      |
+|    total_timesteps | 967848   |
+---------------------------------
+Eval num_timesteps=1000000, episode_reward=3542.97 +/- 0.00
+---------------------------------
+| eval/              |          |
+|    EPI             | -2.83    |
+|    co2_cost        | 0.00962  |
+|    co2_violation   | 0        |
+|    elec_cost       | 8.65e-05 |
+|    fixed_costs     | 4.13     |
+|    heat_cost       | 4.04     |
+|    mean_reward     | 3.54e+03 |
+|    revenue         | 1.22     |
+|    rh_violation    | 497      |
+|    temp_violation  | 138      |
+|    variable_costs  | 4.05     |
+| time/              |          |
+|    total_timesteps | 1000000  |
+| train/             |          |
+|    actor_loss      | -3.67    |
+|    critic_loss     | 0.000177 |
+|    ent_coef        | 0.000216 |
+|    ent_coef_loss   | -0.184   |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 23550    |
+---------------------------------
+New best mean reward!
+-----------------------
+Saving VecNormalize to train_data/AgriControl/sac/deterministic/envs/crisp-waterfall-81/best_vecnormalize.pkl
+-----------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3490.8594 |
+| time/              |           |
+|    episodes        | 172       |
+|    fps             | 1211      |
+|    time_elapsed    | 836       |
+|    total_timesteps | 1013936   |
+| train/             |           |
+|    actor_loss      | -3.68     |
+|    critic_loss     | 0.000171  |
+|    ent_coef        | 0.000213  |
+|    ent_coef_loss   | 0.972     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 23900     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3490.8594 |
+| time/              |           |
+|    episodes        | 176       |
+|    fps             | 1211      |
+|    time_elapsed    | 836       |
+|    total_timesteps | 1013936   |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3499.7612 |
+| time/              |           |
+|    episodes        | 180       |
+|    fps             | 1212      |
+|    time_elapsed    | 874       |
+|    total_timesteps | 1060024   |
+| train/             |           |
+|    actor_loss      | -3.75     |
+|    critic_loss     | 0.000156  |
+|    ent_coef        | 0.000201  |
+|    ent_coef_loss   | -1.34     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 25060     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3499.7612 |
+| time/              |           |
+|    episodes        | 184       |
+|    fps             | 1212      |
+|    time_elapsed    | 874       |
+|    total_timesteps | 1060024   |
+----------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 3507.084 |
+| time/              |          |
+|    episodes        | 188      |
+|    fps             | 1213     |
+|    time_elapsed    | 911      |
+|    total_timesteps | 1106112  |
+| train/             |          |
+|    actor_loss      | -3.78    |
+|    critic_loss     | 0.000138 |
+|    ent_coef        | 0.00022  |
+|    ent_coef_loss   | 0.228    |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 26210    |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 3507.084 |
+| time/              |          |
+|    episodes        | 192      |
+|    fps             | 1213     |
+|    time_elapsed    | 911      |
+|    total_timesteps | 1106112  |
+---------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3515.4028 |
+| time/              |           |
+|    episodes        | 196       |
+|    fps             | 1215      |
+|    time_elapsed    | 948       |
+|    total_timesteps | 1152200   |
+| train/             |           |
+|    actor_loss      | -3.87     |
+|    critic_loss     | 0.000124  |
+|    ent_coef        | 0.000203  |
+|    ent_coef_loss   | -0.984    |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 27360     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3515.4028 |
+| time/              |           |
+|    episodes        | 200       |
+|    fps             | 1215      |
+|    time_elapsed    | 948       |
+|    total_timesteps | 1152200   |
+----------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 3524.025 |
+| time/              |          |
+|    episodes        | 204      |
+|    fps             | 1216     |
+|    time_elapsed    | 985      |
+|    total_timesteps | 1198288  |
+| train/             |          |
+|    actor_loss      | -3.9     |
+|    critic_loss     | 0.000174 |
+|    ent_coef        | 0.000222 |
+|    ent_coef_loss   | 4.28     |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 28510    |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 3524.025 |
+| time/              |          |
+|    episodes        | 208      |
+|    fps             | 1216     |
+|    time_elapsed    | 985      |
+|    total_timesteps | 1198288  |
+---------------------------------
+Eval num_timesteps=1200000, episode_reward=3565.48 +/- 0.00
+---------------------------------
+| eval/              |          |
+|    EPI             | -2.47    |
+|    co2_cost        | 0.0219   |
+|    co2_violation   | 0        |
+|    elec_cost       | 0.000435 |
+|    fixed_costs     | 4.13     |
+|    heat_cost       | 3.64     |
+|    mean_reward     | 3.57e+03 |
+|    revenue         | 1.19     |
+|    rh_violation    | 471      |
+|    temp_violation  | 94.7     |
+|    variable_costs  | 3.66     |
+| time/              |          |
+|    total_timesteps | 1200000  |
+| train/             |          |
+|    actor_loss      | -3.9     |
+|    critic_loss     | 0.000144 |
+|    ent_coef        | 0.000225 |
+|    ent_coef_loss   | 0.257    |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 28550    |
+---------------------------------
+New best mean reward!
+-----------------------
+Saving VecNormalize to train_data/AgriControl/sac/deterministic/envs/crisp-waterfall-81/best_vecnormalize.pkl
+-----------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3531.4656 |
+| time/              |           |
+|    episodes        | 212       |
+|    fps             | 1206      |
+|    time_elapsed    | 1031      |
+|    total_timesteps | 1244376   |
+| train/             |           |
+|    actor_loss      | -3.97     |
+|    critic_loss     | 0.000115  |
+|    ent_coef        | 0.000209  |
+|    ent_coef_loss   | -0.87     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 29660     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3531.4656 |
+| time/              |           |
+|    episodes        | 216       |
+|    fps             | 1206      |
+|    time_elapsed    | 1031      |
+|    total_timesteps | 1244376   |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3537.7856 |
+| time/              |           |
+|    episodes        | 220       |
+|    fps             | 1206      |
+|    time_elapsed    | 1069      |
+|    total_timesteps | 1290464   |
+| train/             |           |
+|    actor_loss      | -4.02     |
+|    critic_loss     | 0.000136  |
+|    ent_coef        | 0.000213  |
+|    ent_coef_loss   | 0.542     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 30820     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3537.7856 |
+| time/              |           |
+|    episodes        | 224       |
+|    fps             | 1206      |
+|    time_elapsed    | 1069      |
+|    total_timesteps | 1290464   |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3543.5688 |
+| time/              |           |
+|    episodes        | 228       |
+|    fps             | 1207      |
+|    time_elapsed    | 1106      |
+|    total_timesteps | 1336552   |
+| train/             |           |
+|    actor_loss      | -4.08     |
+|    critic_loss     | 0.000122  |
+|    ent_coef        | 0.000215  |
+|    ent_coef_loss   | 0.259     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 31970     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3543.5688 |
+| time/              |           |
+|    episodes        | 232       |
+|    fps             | 1207      |
+|    time_elapsed    | 1106      |
+|    total_timesteps | 1336552   |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3548.6243 |
+| time/              |           |
+|    episodes        | 236       |
+|    fps             | 1207      |
+|    time_elapsed    | 1144      |
+|    total_timesteps | 1382640   |
+| train/             |           |
+|    actor_loss      | -4.12     |
+|    critic_loss     | 0.000154  |
+|    ent_coef        | 0.000224  |
+|    ent_coef_loss   | -0.656    |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 33120     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3548.6243 |
+| time/              |           |
+|    episodes        | 240       |
+|    fps             | 1207      |
+|    time_elapsed    | 1144      |
+|    total_timesteps | 1382640   |
+----------------------------------
+Eval num_timesteps=1400000, episode_reward=3568.97 +/- 0.00
+---------------------------------
+| eval/              |          |
+|    EPI             | -2.27    |
+|    co2_cost        | 0.0186   |
+|    co2_violation   | 0        |
+|    elec_cost       | 3.34e-05 |
+|    fixed_costs     | 4.13     |
+|    heat_cost       | 3.32     |
+|    mean_reward     | 3.57e+03 |
+|    revenue         | 1.07     |
+|    rh_violation    | 589      |
+|    temp_violation  | 74.7     |
+|    variable_costs  | 3.34     |
+| time/              |          |
+|    total_timesteps | 1400000  |
+| train/             |          |
+|    actor_loss      | -4.15    |
+|    critic_loss     | 0.000118 |
+|    ent_coef        | 0.000217 |
+|    ent_coef_loss   | 0.801    |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 33550    |
+---------------------------------
+New best mean reward!
+-----------------------
+Saving VecNormalize to train_data/AgriControl/sac/deterministic/envs/crisp-waterfall-81/best_vecnormalize.pkl
+-----------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 3552.767 |
+| time/              |          |
+|    episodes        | 244      |
+|    fps             | 1199     |
+|    time_elapsed    | 1191     |
+|    total_timesteps | 1428728  |
+| train/             |          |
+|    actor_loss      | -4.17    |
+|    critic_loss     | 0.000121 |
+|    ent_coef        | 0.000218 |
+|    ent_coef_loss   | 0.081    |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 34270    |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 3552.767 |
+| time/              |          |
+|    episodes        | 248      |
+|    fps             | 1199     |
+|    time_elapsed    | 1191     |
+|    total_timesteps | 1428728  |
+---------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3556.5144 |
+| time/              |           |
+|    episodes        | 252       |
+|    fps             | 1200      |
+|    time_elapsed    | 1228      |
+|    total_timesteps | 1474816   |
+| train/             |           |
+|    actor_loss      | -4.22     |
+|    critic_loss     | 0.000136  |
+|    ent_coef        | 0.000232  |
+|    ent_coef_loss   | 1.43      |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 35430     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3556.5144 |
+| time/              |           |
+|    episodes        | 256       |
+|    fps             | 1200      |
+|    time_elapsed    | 1228      |
+|    total_timesteps | 1474816   |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3559.6575 |
+| time/              |           |
+|    episodes        | 260       |
+|    fps             | 1201      |
+|    time_elapsed    | 1266      |
+|    total_timesteps | 1520904   |
+| train/             |           |
+|    actor_loss      | -4.27     |
+|    critic_loss     | 0.000154  |
+|    ent_coef        | 0.000228  |
+|    ent_coef_loss   | 1.13      |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 36580     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3559.6575 |
+| time/              |           |
+|    episodes        | 264       |
+|    fps             | 1201      |
+|    time_elapsed    | 1266      |
+|    total_timesteps | 1520904   |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3562.4478 |
+| time/              |           |
+|    episodes        | 268       |
+|    fps             | 1201      |
+|    time_elapsed    | 1303      |
+|    total_timesteps | 1566992   |
+| train/             |           |
+|    actor_loss      | -4.34     |
+|    critic_loss     | 0.000191  |
+|    ent_coef        | 0.000226  |
+|    ent_coef_loss   | -0.544    |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 37730     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3562.4478 |
+| time/              |           |
+|    episodes        | 272       |
+|    fps             | 1201      |
+|    time_elapsed    | 1303      |
+|    total_timesteps | 1566992   |
+----------------------------------
+Eval num_timesteps=1600000, episode_reward=3575.41 +/- 0.00
+---------------------------------
+| eval/              |          |
+|    EPI             | -2.06    |
+|    co2_cost        | 0.00833  |
+|    co2_violation   | 0        |
+|    elec_cost       | 5.16e-07 |
+|    fixed_costs     | 4.13     |
+|    heat_cost       | 3.24     |
+|    mean_reward     | 3.58e+03 |
+|    revenue         | 1.19     |
+|    rh_violation    | 633      |
+|    temp_violation  | 92.4     |
+|    variable_costs  | 3.25     |
+| time/              |          |
+|    total_timesteps | 1600000  |
+| train/             |          |
+|    actor_loss      | -4.37    |
+|    critic_loss     | 0.000126 |
+|    ent_coef        | 0.000235 |
+|    ent_coef_loss   | -0.183   |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 38550    |
+---------------------------------
+New best mean reward!
+-----------------------
+Saving VecNormalize to train_data/AgriControl/sac/deterministic/envs/crisp-waterfall-81/best_vecnormalize.pkl
+-----------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3565.1777 |
+| time/              |           |
+|    episodes        | 276       |
+|    fps             | 1194      |
+|    time_elapsed    | 1350      |
+|    total_timesteps | 1613080   |
+| train/             |           |
+|    actor_loss      | -4.38     |
+|    critic_loss     | 0.000116  |
+|    ent_coef        | 0.000241  |
+|    ent_coef_loss   | -0.923    |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 38880     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3565.1777 |
+| time/              |           |
+|    episodes        | 280       |
+|    fps             | 1194      |
+|    time_elapsed    | 1350      |
+|    total_timesteps | 1613080   |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3567.6335 |
+| time/              |           |
+|    episodes        | 284       |
+|    fps             | 1195      |
+|    time_elapsed    | 1388      |
+|    total_timesteps | 1659168   |
+| train/             |           |
+|    actor_loss      | -4.42     |
+|    critic_loss     | 0.000117  |
+|    ent_coef        | 0.000236  |
+|    ent_coef_loss   | -0.809    |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 40030     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3567.6335 |
+| time/              |           |
+|    episodes        | 288       |
+|    fps             | 1195      |
+|    time_elapsed    | 1388      |
+|    total_timesteps | 1659168   |
+----------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 3569.858 |
+| time/              |          |
+|    episodes        | 292      |
+|    fps             | 1195     |
+|    time_elapsed    | 1425     |
+|    total_timesteps | 1705256  |
+| train/             |          |
+|    actor_loss      | -4.48    |
+|    critic_loss     | 0.000115 |
+|    ent_coef        | 0.000228 |
+|    ent_coef_loss   | 1.44     |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 41190    |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 3569.858 |
+| time/              |          |
+|    episodes        | 296      |
+|    fps             | 1195     |
+|    time_elapsed    | 1425     |
+|    total_timesteps | 1705256  |
+---------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3571.6853 |
+| time/              |           |
+|    episodes        | 300       |
+|    fps             | 1196      |
+|    time_elapsed    | 1463      |
+|    total_timesteps | 1751344   |
+| train/             |           |
+|    actor_loss      | -4.5      |
+|    critic_loss     | 0.000126  |
+|    ent_coef        | 0.000235  |
+|    ent_coef_loss   | -0.949    |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 42340     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3571.6853 |
+| time/              |           |
+|    episodes        | 304       |
+|    fps             | 1196      |
+|    time_elapsed    | 1463      |
+|    total_timesteps | 1751344   |
+----------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 3573.114 |
+| time/              |          |
+|    episodes        | 308      |
+|    fps             | 1197     |
+|    time_elapsed    | 1500     |
+|    total_timesteps | 1797432  |
+| train/             |          |
+|    actor_loss      | -4.57    |
+|    critic_loss     | 0.000123 |
+|    ent_coef        | 0.000248 |
+|    ent_coef_loss   | 1.1      |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 43490    |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 3573.114 |
+| time/              |          |
+|    episodes        | 312      |
+|    fps             | 1197     |
+|    time_elapsed    | 1500     |
+|    total_timesteps | 1797432  |
+---------------------------------
+Eval num_timesteps=1800000, episode_reward=3583.82 +/- 0.00
+---------------------------------
+| eval/              |          |
+|    EPI             | -2.15    |
+|    co2_cost        | 0.0114   |
+|    co2_violation   | 0        |
+|    elec_cost       | 0.0031   |
+|    fixed_costs     | 4.13     |
+|    heat_cost       | 3.32     |
+|    mean_reward     | 3.58e+03 |
+|    revenue         | 1.19     |
+|    rh_violation    | 446      |
+|    temp_violation  | 85       |
+|    variable_costs  | 3.34     |
+| time/              |          |
+|    total_timesteps | 1800000  |
+| train/             |          |
+|    actor_loss      | -4.56    |
+|    critic_loss     | 0.000116 |
+|    ent_coef        | 0.000248 |
+|    ent_coef_loss   | -0.15    |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 43550    |
+---------------------------------
+New best mean reward!
+-----------------------
+Saving VecNormalize to train_data/AgriControl/sac/deterministic/envs/crisp-waterfall-81/best_vecnormalize.pkl
+-----------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3574.5237 |
+| time/              |           |
+|    episodes        | 316       |
+|    fps             | 1191      |
+|    time_elapsed    | 1547      |
+|    total_timesteps | 1843520   |
+| train/             |           |
+|    actor_loss      | -4.59     |
+|    critic_loss     | 0.000127  |
+|    ent_coef        | 0.00026   |
+|    ent_coef_loss   | 1.01      |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 44640     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3574.5237 |
+| time/              |           |
+|    episodes        | 320       |
+|    fps             | 1191      |
+|    time_elapsed    | 1547      |
+|    total_timesteps | 1843520   |
+----------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 3575.912 |
+| time/              |          |
+|    episodes        | 324      |
+|    fps             | 1192     |
+|    time_elapsed    | 1584     |
+|    total_timesteps | 1889608  |
+| train/             |          |
+|    actor_loss      | -4.63    |
+|    critic_loss     | 0.000119 |
+|    ent_coef        | 0.00025  |
+|    ent_coef_loss   | 3.46     |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 45800    |
+---------------------------------
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 5.76e+03 |
+|    ep_rew_mean     | 3575.912 |
+| time/              |          |
+|    episodes        | 328      |
+|    fps             | 1192     |
+|    time_elapsed    | 1584     |
+|    total_timesteps | 1889608  |
+---------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3577.0974 |
+| time/              |           |
+|    episodes        | 332       |
+|    fps             | 1193      |
+|    time_elapsed    | 1622      |
+|    total_timesteps | 1935696   |
+| train/             |           |
+|    actor_loss      | -4.69     |
+|    critic_loss     | 0.000142  |
+|    ent_coef        | 0.000257  |
+|    ent_coef_loss   | 1.71      |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 46950     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3577.0974 |
+| time/              |           |
+|    episodes        | 336       |
+|    fps             | 1193      |
+|    time_elapsed    | 1622      |
+|    total_timesteps | 1935696   |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3578.4346 |
+| time/              |           |
+|    episodes        | 340       |
+|    fps             | 1193      |
+|    time_elapsed    | 1659      |
+|    total_timesteps | 1981784   |
+| train/             |           |
+|    actor_loss      | -4.75     |
+|    critic_loss     | 0.000109  |
+|    ent_coef        | 0.000254  |
+|    ent_coef_loss   | -0.93     |
+|    learning_rate   | 0.0007    |
+|    n_updates       | 48100     |
+----------------------------------
+----------------------------------
+| rollout/           |           |
+|    ep_len_mean     | 5.76e+03  |
+|    ep_rew_mean     | 3578.4346 |
+| time/              |           |
+|    episodes        | 344       |
+|    fps             | 1193      |
+|    time_elapsed    | 1659      |
+|    total_timesteps | 1981784   |
+----------------------------------
+Eval num_timesteps=2000000, episode_reward=3587.10 +/- 0.00
+---------------------------------
+| eval/              |          |
+|    EPI             | -2.09    |
+|    co2_cost        | 0.0176   |
+|    co2_violation   | 0        |
+|    elec_cost       | 0.00224  |
+|    fixed_costs     | 4.13     |
+|    heat_cost       | 3.3      |
+|    mean_reward     | 3.59e+03 |
+|    revenue         | 1.24     |
+|    rh_violation    | 423      |
+|    temp_violation  | 104      |
+|    variable_costs  | 3.32     |
+| time/              |          |
+|    total_timesteps | 2000000  |
+| train/             |          |
+|    actor_loss      | -4.74    |
+|    critic_loss     | 0.000122 |
+|    ent_coef        | 0.000244 |
+|    ent_coef_loss   | 1.48     |
+|    learning_rate   | 0.0007   |
+|    n_updates       | 48550    |
+---------------------------------
+New best mean reward!
+-----------------------
+Saving VecNormalize to train_data/AgriControl/sac/deterministic/envs/crisp-waterfall-81/best_vecnormalize.pkl
+-----------------------

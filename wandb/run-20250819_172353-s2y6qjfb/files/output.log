@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/Users/fady/Desktop/test/2/GreenLight-Gym2/gl_gym/RL/experiment_manager.py", line 410, in <module>
+    main()
+  File "/Users/fady/Desktop/test/2/GreenLight-Gym2/gl_gym/RL/experiment_manager.py", line 383, in main
+    experiment_manager = ExperimentManager(
+                         ^^^^^^^^^^^^^^^^^^
+  File "/Users/fady/Desktop/test/2/GreenLight-Gym2/gl_gym/RL/experiment_manager.py", line 140, in __init__
+    self.init_envs(self.hyperparameters["gamma"])
+  File "/Users/fady/Desktop/test/2/GreenLight-Gym2/gl_gym/RL/experiment_manager.py", line 161, in init_envs
+    self.env = make_vec_env(
+               ^^^^^^^^^^^^^
+  File "/Users/fady/Desktop/test/2/GreenLight-Gym2/gl_gym/RL/utils.py", line 63, in make_vec_env
+    env = SubprocVecEnv([make_env(env_id, rank, seed, env_base_params, env_specific_params, eval_env=eval_env) for rank in range(n_envs)])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fady/anaconda3/envs/greenlight_gym/lib/python3.11/site-packages/stable_baselines3/common/vec_env/subproc_vec_env.py", line 120, in __init__
+    observation_space, action_space = self.remotes[0].recv()
+                                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fady/anaconda3/envs/greenlight_gym/lib/python3.11/multiprocessing/connection.py", line 249, in recv
+    buf = self._recv_bytes()
+          ^^^^^^^^^^^^^^^^^^
+  File "/Users/fady/anaconda3/envs/greenlight_gym/lib/python3.11/multiprocessing/connection.py", line 413, in _recv_bytes
+    buf = self._recv(4)
+          ^^^^^^^^^^^^^
+  File "/Users/fady/anaconda3/envs/greenlight_gym/lib/python3.11/multiprocessing/connection.py", line 378, in _recv
+    chunk = read(handle, remaining)
+            ^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -1,0 +1,50 @@
+{
+  "os": "macOS-15.3.1-arm64-arm-64bit",
+  "python": "CPython 3.11.0",
+  "startedAt": "2025-08-22T13:43:47.581725Z",
+  "args": [
+    "--env_id",
+    "LettuceEnv",
+    "--algorithm",
+    "sac"
+  ],
+  "program": "/Users/fady/Desktop/test/2/GreenLight-Gym2/gl_gym/RL/experiment_manager.py",
+  "codePath": "gl_gym/RL/experiment_manager.py",
+  "git": {
+    "remote": "https://github.com/BartvLaatum/GreenLight-Gym2.git",
+    "commit": "8bb5b282ffa4e3feb2fb9b9e41e1027d01a2cd24"
+  },
+  "email": "fadyr1030@gmail.com",
+  "root": "/Users/fady/Desktop/test/2/GreenLight-Gym2",
+  "host": "FaDys-MacBook-Air.local",
+  "executable": "/Users/fady/anaconda3/envs/greenlight_gym/bin/python",
+  "codePathLocal": "gl_gym/RL/experiment_manager.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "245107195904",
+      "used": "230945902592"
+    },
+    "/System/Volumes/Data": {
+      "total": "245107195904",
+      "used": "230945902592"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "apple": {
+    "name": "Apple M2",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 8,
+    "memoryGb": 8,
+    "swapTotalBytes": "3221225472",
+    "ramTotalBytes": "8589934592"
+  }
+}

@@ -1,0 +1,65 @@
+TomatoEnv:              # educated guess based on Bayes optimisation...
+  total_timesteps: 2_000_000
+  n_envs: 8
+  policy: MlpPolicy
+  n_steps: 2048         # we update after n_steps calls of step() function. in the case of N envs --> N * n_steps
+  batch_size: 128
+  n_epochs: 8
+  gamma: 0.9631
+  gae_lambda: 0.9167
+  clip_range: 0.2
+  normalize_advantage: True
+  ent_coef: 0.05434
+  vf_coef: 0.8225
+  max_grad_norm: 0.3
+  use_sde: False
+  sde_sample_freq: 8
+  target_kl: null
+
+  policy_kwargs: {net_arch: {pi: [256, 256, 256], vf: [512, 512, 512]},
+                  optimizer_class: adam,
+                  optimizer_kwargs: {amsgrad: True},
+                  activation_fn: silu,
+                  log_std_init: np.log(1) # Results in policy standard deviation of 0.5 since exp(log(0.5)) = 0.5, where np.log(1) results in std of 1
+          }
+
+  learning_rate: 2.e-5
+
+LettuceEnv:              # educated guess based on Bayes optimisation...
+  total_timesteps: 500_000  # 2_000_000
+  n_envs: 8
+  policy: MlpPolicy
+  n_steps: 2048         # we update after n_steps calls of step() function. in the case of N envs --> N * n_steps
+  batch_size: 256 #128
+  n_epochs: 8
+  gamma: 0.97 #0.9631
+  gae_lambda: 0.9167
+  clip_range: 0.2
+  normalize_advantage: True
+  ent_coef: 0.01 #0.05434
+  vf_coef: 0.8225
+  max_grad_norm: 0.3
+  use_sde: False
+  sde_sample_freq: 8
+  target_kl: null
+
+  policy_kwargs: {net_arch: {pi: [512, 512, 512, 512], vf: [512, 512, 512, 512]},
+                  optimizer_class: adam,
+                  optimizer_kwargs: {amsgrad: True},
+                  activation_fn: silu,
+                  log_std_init: np.log(1) # Results in policy standard deviation of 0.5 since exp(log(0.5)) = 0.5, where np.log(1) results in std of 1
+          }
+
+  learning_rate: 1.e-4 #2.e-5
+
+
+# إعدادات الهايبربارامترز لـ LettuceEnv،
+#  معدلة بناءً على دراسات حول التعلم المعزز للتحكم في بيوت الخس الزجاجية.
+#  اعتمدت التعديلات على قيم من أبحاث متخصصة،
+#  مثل تقليل عدد الخطوات الإجمالية إلى 500,000 (بدلاً من 2 مليون للطماطم، نظرًا لدورة نمو الخس الأقصر)،
+#  رفع حجم الدفعة batch_size إلى 256،
+#  تغيير معامل الخصم (gamma) إلى 0.97،
+#  معامل الإنتروبيا (ent_coef) إلى 0.01،
+#  وتعديل هيكل الشبكة العصبية إلى 4 طبقات بـ 512 عقدة لكل من الـ actor والـ critic لتحسين الأداء في بيئة الخس
+# باقي القيم بقيت مشابهة للتوافق مع إعدادات الطماطم،
+#  مع إمكانية تحسين إضافي عبر تجارب أو Bayes optimization.

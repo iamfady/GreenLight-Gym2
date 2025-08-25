@@ -1,0 +1,15 @@
+{"time":"2025-08-18T19:27:16.577313+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/fady/Desktop/test/2/GreenLight-Gym2/wandb/run-20250818_192716-yiyih25v/logs/debug-core.log"}
+{"time":"2025-08-18T19:27:17.079326+03:00","level":"INFO","msg":"created new stream","id":"yiyih25v"}
+{"time":"2025-08-18T19:27:17.079551+03:00","level":"INFO","msg":"stream: started","id":"yiyih25v"}
+{"time":"2025-08-18T19:27:17.079748+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"yiyih25v"}
+{"time":"2025-08-18T19:27:17.079934+03:00","level":"INFO","msg":"handler: started","stream_id":"yiyih25v"}
+{"time":"2025-08-18T19:27:17.080064+03:00","level":"INFO","msg":"sender: started","stream_id":"yiyih25v"}
+{"time":"2025-08-18T19:27:17.464682+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-18T19:27:24.136974+03:00","level":"INFO","msg":"stream: closing","id":"yiyih25v"}
+{"time":"2025-08-18T19:27:24.137372+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-18T19:27:24.137466+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-18T19:27:25.241505+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-18T19:27:25.607349+03:00","level":"INFO","msg":"sender: closed","stream_id":"yiyih25v"}
+{"time":"2025-08-18T19:27:25.60734+03:00","level":"INFO","msg":"handler: closed","stream_id":"yiyih25v"}
+{"time":"2025-08-18T19:27:25.607775+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"yiyih25v"}
+{"time":"2025-08-18T19:27:25.607835+03:00","level":"INFO","msg":"stream: closed","id":"yiyih25v"}

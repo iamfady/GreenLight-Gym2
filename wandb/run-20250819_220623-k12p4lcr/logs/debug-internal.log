@@ -1,0 +1,20 @@
+{"time":"2025-08-19T22:06:23.437338+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/fady/Desktop/test/2/GreenLight-Gym2/wandb/run-20250819_220623-k12p4lcr/logs/debug-core.log"}
+{"time":"2025-08-19T22:06:24.092467+03:00","level":"INFO","msg":"created new stream","id":"k12p4lcr"}
+{"time":"2025-08-19T22:06:24.093035+03:00","level":"INFO","msg":"stream: started","id":"k12p4lcr"}
+{"time":"2025-08-19T22:06:24.093617+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"k12p4lcr"}
+{"time":"2025-08-19T22:06:24.094381+03:00","level":"INFO","msg":"handler: started","stream_id":"k12p4lcr"}
+{"time":"2025-08-19T22:06:24.094856+03:00","level":"INFO","msg":"sender: started","stream_id":"k12p4lcr"}
+{"time":"2025-08-19T22:06:24.543936+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-19T22:06:44.875263+03:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-08-19T22:50:09.905173+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/iamfady-fady/AgriControl/k12p4lcr/file_stream\": dial tcp 35.186.228.49:443: connect: operation timed out"}
+{"time":"2025-08-19T23:01:39.919194+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/iamfady-fady/AgriControl/k12p4lcr/file_stream\": dial tcp 35.186.228.49:443: connect: operation timed out"}
+{"time":"2025-08-19T23:03:24.916543+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/iamfady-fady/AgriControl/k12p4lcr/file_stream\": dial tcp 35.186.228.49:443: connect: operation timed out"}
+{"time":"2025-08-19T23:03:42.121672+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/iamfady-fady/AgriControl/k12p4lcr/file_stream\": dial tcp 35.186.228.49:443: connect: operation timed out"}
+{"time":"2025-08-19T23:08:54.923191+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/iamfady-fady/AgriControl/k12p4lcr/file_stream\": dial tcp 35.186.228.49:443: connect: operation timed out"}
+{"time":"2025-08-19T23:12:09.925348+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/iamfady-fady/AgriControl/k12p4lcr/file_stream\": dial tcp 35.186.228.49:443: connect: operation timed out"}
+{"time":"2025-08-19T23:13:24.92691+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/iamfady-fady/AgriControl/k12p4lcr/file_stream\": dial tcp 35.186.228.49:443: connect: operation timed out"}
+{"time":"2025-08-19T23:40:44.624983+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/iamfady-fady/AgriControl/k12p4lcr/file_stream\": dial tcp 35.186.228.49:443: connect: operation timed out"}
+{"time":"2025-08-19T23:42:13.84542+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/iamfady-fady/AgriControl/k12p4lcr/file_stream\": dial tcp 35.186.228.49:443: connect: operation timed out"}
+{"time":"2025-08-19T23:45:58.848982+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/iamfady-fady/AgriControl/k12p4lcr/file_stream\": dial tcp 35.186.228.49:443: connect: operation timed out"}
+{"time":"2025-08-19T23:47:28.84944+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/iamfady-fady/AgriControl/k12p4lcr/file_stream\": dial tcp 35.186.228.49:443: connect: operation timed out"}
+{"time":"2025-08-19T23:50:28.855234+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/iamfady-fady/AgriControl/k12p4lcr/file_stream\": dial tcp 35.186.228.49:443: connect: operation timed out"}

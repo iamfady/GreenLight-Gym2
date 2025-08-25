@@ -1,0 +1,15 @@
+{"time":"2025-08-22T16:33:47.214273+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/fady/Desktop/test/2/GreenLight-Gym2/wandb/run-20250822_163347-dro5nmz4/logs/debug-core.log"}
+{"time":"2025-08-22T16:33:47.628598+03:00","level":"INFO","msg":"created new stream","id":"dro5nmz4"}
+{"time":"2025-08-22T16:33:47.628635+03:00","level":"INFO","msg":"stream: started","id":"dro5nmz4"}
+{"time":"2025-08-22T16:33:47.628655+03:00","level":"INFO","msg":"handler: started","stream_id":"dro5nmz4"}
+{"time":"2025-08-22T16:33:47.628673+03:00","level":"INFO","msg":"sender: started","stream_id":"dro5nmz4"}
+{"time":"2025-08-22T16:33:47.628645+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"dro5nmz4"}
+{"time":"2025-08-22T16:33:47.99502+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-22T16:33:56.561736+03:00","level":"INFO","msg":"stream: closing","id":"dro5nmz4"}
+{"time":"2025-08-22T16:33:56.561759+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-22T16:33:56.561896+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-22T16:33:57.693006+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-22T16:33:58.053629+03:00","level":"INFO","msg":"handler: closed","stream_id":"dro5nmz4"}
+{"time":"2025-08-22T16:33:58.053697+03:00","level":"INFO","msg":"sender: closed","stream_id":"dro5nmz4"}
+{"time":"2025-08-22T16:33:58.05368+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dro5nmz4"}
+{"time":"2025-08-22T16:33:58.054199+03:00","level":"INFO","msg":"stream: closed","id":"dro5nmz4"}

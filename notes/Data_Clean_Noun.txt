@@ -1,0 +1,17 @@
+External Total Solar Radiation → global radiation
+
+External Temperature → air temperature
+
+External Relative Humidity (RH) → RH
+
+Wind Speed → wind speed
+
+sky temperature → sky temperature
+
+time → time
+
+Date أو Datetime → هنستخرج منها day number (اليوم في السنة)
+
+?? (مش معروف لسه) → ممكن نخليها عمود مليان أصفار زي ما في 2001.csv
+
+CO2 concentration → مش موجود في 2024.csv → نحط قيمة ثابتة (مثلاً 400 ppm زي ما في 2001.csv)

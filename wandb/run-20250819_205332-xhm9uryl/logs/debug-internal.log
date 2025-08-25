@@ -1,0 +1,18 @@
+{"time":"2025-08-19T20:53:32.754467+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/fady/Desktop/test/2/GreenLight-Gym2/wandb/run-20250819_205332-xhm9uryl/logs/debug-core.log"}
+{"time":"2025-08-19T20:53:33.531697+03:00","level":"INFO","msg":"created new stream","id":"xhm9uryl"}
+{"time":"2025-08-19T20:53:33.531769+03:00","level":"INFO","msg":"stream: started","id":"xhm9uryl"}
+{"time":"2025-08-19T20:53:33.531804+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"xhm9uryl"}
+{"time":"2025-08-19T20:53:33.532052+03:00","level":"INFO","msg":"handler: started","stream_id":"xhm9uryl"}
+{"time":"2025-08-19T20:53:33.532153+03:00","level":"INFO","msg":"sender: started","stream_id":"xhm9uryl"}
+{"time":"2025-08-19T20:53:33.893988+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-08-19T20:53:54.067502+03:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-08-19T21:06:57.877563+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/iamfady-fady/AgriControl/xhm9uryl/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-08-19T21:23:19.143901+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-08-19T21:23:19.144873+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-08-19T21:23:20.167229+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.352341125,"progress":"22.0KB/22.0KB"},{"desc":"uploading train_data/AgriControl/ppo/deterministic/logs/proud-violet-75/PPO_0/events.out.tfevents.1755626024.FaDys-MacBook-Air.local.16213.0","runtime_seconds":0.352310875,"progress":"93.9KB/93.9KB"}],"total_operations":2}}
+{"time":"2025-08-19T21:23:20.34608+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-19T21:23:20.826156+03:00","level":"INFO","msg":"stream: closing","id":"xhm9uryl"}
+{"time":"2025-08-19T21:23:20.826379+03:00","level":"INFO","msg":"handler: closed","stream_id":"xhm9uryl"}
+{"time":"2025-08-19T21:23:20.826543+03:00","level":"INFO","msg":"sender: closed","stream_id":"xhm9uryl"}
+{"time":"2025-08-19T21:23:20.826567+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xhm9uryl"}
+{"time":"2025-08-19T21:23:20.826679+03:00","level":"INFO","msg":"stream: closed","id":"xhm9uryl"}

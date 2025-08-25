@@ -1,0 +1,28 @@
+Using cpu device
+Logging to train_data/AgriControl/ppo/deterministic/logs/icy-snowball-72/PPO_0
+------------------------------
+| time/              |       |
+|    fps             | 2832  |
+|    iterations      | 1     |
+|    time_elapsed    | 5     |
+|    total_timesteps | 16384 |
+------------------------------
+-----------------------------------------
+| time/                   |             |
+|    fps                  | 1871        |
+|    iterations           | 2           |
+|    time_elapsed         | 17          |
+|    total_timesteps      | 32768       |
+| train/                  |             |
+|    approx_kl            | 0.008207169 |
+|    clip_fraction        | 0.0872      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -8.54       |
+|    explained_variance   | -0.0435     |
+|    learning_rate        | 2e-05       |
+|    loss                 | -0.451      |
+|    n_updates            | 8           |
+|    policy_gradient_loss | -0.0116     |
+|    std                  | 1.01        |
+|    value_loss           | 0.217       |
+-----------------------------------------

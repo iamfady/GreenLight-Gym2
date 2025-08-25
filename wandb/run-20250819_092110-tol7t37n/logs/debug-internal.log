@@ -1,0 +1,23 @@
+{"time":"2025-08-19T09:21:10.876381+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/fady/Desktop/test/2/GreenLight-Gym2/wandb/run-20250819_092110-tol7t37n/logs/debug-core.log"}
+{"time":"2025-08-19T09:21:40.994486+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-19T09:22:13.051472+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-19T09:22:47.088111+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-19T09:23:25.717502+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-19T09:24:13.498441+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-19T09:25:21.797199+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled while waiting for connection (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-19T09:26:51.801859+03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-08-19T09:27:52.229124+03:00","level":"INFO","msg":"created new stream","id":"tol7t37n"}
+{"time":"2025-08-19T09:27:52.22954+03:00","level":"INFO","msg":"stream: started","id":"tol7t37n"}
+{"time":"2025-08-19T09:27:52.229717+03:00","level":"INFO","msg":"sender: started","stream_id":"tol7t37n"}
+{"time":"2025-08-19T09:27:52.229769+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"tol7t37n"}
+{"time":"2025-08-19T09:27:52.230132+03:00","level":"INFO","msg":"handler: started","stream_id":"tol7t37n"}
+{"time":"2025-08-19T09:27:52.241827+03:00","level":"INFO","msg":"stream: closing","id":"tol7t37n"}
+{"time":"2025-08-19T09:27:52.845106+03:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-08-19T09:27:52.84612+03:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"project /AgriControl not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-08-19T09:27:53.024354+03:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-08-19T09:27:53.02469+03:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"project /AgriControl not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-08-19T09:27:53.026164+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-19T09:27:53.026359+03:00","level":"INFO","msg":"sender: closed","stream_id":"tol7t37n"}
+{"time":"2025-08-19T09:27:53.026534+03:00","level":"INFO","msg":"handler: closed","stream_id":"tol7t37n"}
+{"time":"2025-08-19T09:27:53.026604+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tol7t37n"}
+{"time":"2025-08-19T09:27:53.026666+03:00","level":"INFO","msg":"stream: closed","id":"tol7t37n"}

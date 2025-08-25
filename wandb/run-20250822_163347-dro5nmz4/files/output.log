@@ -1,0 +1,22 @@
+Using cpu device
+Traceback (most recent call last):
+  File "/Users/fady/Desktop/test/2/GreenLight-Gym2/gl_gym/RL/experiment_manager.py", line 410, in <module>
+    main()
+  File "/Users/fady/Desktop/test/2/GreenLight-Gym2/gl_gym/RL/experiment_manager.py", line 383, in main
+    experiment_manager = ExperimentManager(
+                         ^^^^^^^^^^^^^^^^^^
+  File "/Users/fady/Desktop/test/2/GreenLight-Gym2/gl_gym/RL/experiment_manager.py", line 144, in __init__
+    self.initialise_model()
+  File "/Users/fady/Desktop/test/2/GreenLight-Gym2/gl_gym/RL/experiment_manager.py", line 192, in initialise_model
+    self.model = self.model_class(
+                 ^^^^^^^^^^^^^^^^^
+  File "/Users/fady/anaconda3/envs/greenlight_gym/lib/python3.11/site-packages/stable_baselines3/sac/sac.py", line 157, in __init__
+    self._setup_model()
+  File "/Users/fady/anaconda3/envs/greenlight_gym/lib/python3.11/site-packages/stable_baselines3/sac/sac.py", line 160, in _setup_model
+    super()._setup_model()
+  File "/Users/fady/anaconda3/envs/greenlight_gym/lib/python3.11/site-packages/stable_baselines3/common/off_policy_algorithm.py", line 189, in _setup_model
+    self.replay_buffer = self.replay_buffer_class(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fady/anaconda3/envs/greenlight_gym/lib/python3.11/site-packages/stable_baselines3/common/buffers.py", line 196, in __init__
+    raise ValueError(
+ValueError: ReplayBuffer does not support optimize_memory_usage = True and handle_timeout_termination = True simultaneously.
